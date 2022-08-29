@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@300;400&family=Roboto:wght@300&family=Work+Sans:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    margin-top: 250px;
+}
+
+.fliper-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fliper-color-text{
+    margin: 12px 0;
+    padding: 20px 16px;
+    background-color: rgb(75, 76, 77);
+    border-radius: 8px;
+
+}
+
+.fliper-color-text > p{
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-variant: small-caps;
+    color: rgb(241, 226, 231);
+}
+span{
+    color: rgb(92, 40, 40);
+    font-weight: 500;
+}
+
+button{
+    padding: 10px 12px;
+    background-color:#ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
